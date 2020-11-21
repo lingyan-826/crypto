@@ -1,0 +1,48 @@
+[responseresult]
+resultcode=0
+[install progress]
+ confirm realtek driver 
+ check operation system version 
+ os information [winmajor number] = 6
+ os information [winmajor string] = 6.1
+ os information [sysinfo.nwinmajor] = 6
+ os information [sysinfo.nwinminor] = 1
+ os information [iswin2000] = 0
+ os information [iswinxp] = 0
+ os information [iswin2003] = 0
+ os information [isvista] = 0
+ os information [iswin2008] = 0
+ os information [iswin7] = 1
+ os information [iswin2008r2x64] = 0
+ os information [ismce] = 1
+ os information [isserver] = 0
+ os information [service pack] = 1
+ os information [x64] = 1
+ operation system was windows x64
+ rtlupd [getrtlupdforpackage] = 1
+ rtlupd version [c:\users\aust\appdata\local\temp\lumos\realtek audio generic driver\vista64\rtlupd64.exe] = 2.8.0.5
+ rtkupd version [\] = 
+ current use rtlupd version [c:\users\aust\appdata\local\temp\lumos\realtek audio generic driver\vista64\rtlupd64.exe] = 2.8.0.5
+ default path [rtkaudiodir] = c:\program files (x86)\realtek\audio
+ default path [rtkaudiodir x64] = c:\program files\realtek\audio
+ default path [rtltempdir] = c:\program files (x86)\realtek\audio\drivers
+ default path [rtkhdadrvdir] = c:\program files (x86)\realtek\audio\drivers\vista64
+ default path [rtkhdmidrvdir] = c:\program files (x86)\realtek\audio\drivers\hdmi\xp2k
+ default path [rtlpfhdadir] = c:\program files\realtek\audio\hda
+ default registry key [installer base key] = software\realtek\audio\installer
+ current model : acer
+ current driver version = 6.0.1.6521  x64 edition
+ 
+ realtek hd audio driver vista64 directory exist .
+ status - onmovedata
+ status - programfiles_installing
+ delete c:\program files (x86)\realtek\audio\drivers\vista64
+ copy realtek hd audio driver from vista64 directory
+ run rtlupd64.exe : c:\program files (x86)\realtek\audio\drivers\rtlupd64.exe --- > -s -cb -nrg2709 (true)
+ status - programfiles_installed
+ install realtek hd audio audio driver 
+ run rtlupd64.exe : c:\program files (x86)\realtek\audio\drivers\rtlupd64.exe --- > -u -s -fi -nrg2709 (true)
+ -->realtek hd audio - setupapi result laaw_parameters.nlaunchresult = -4
+ register c:\windows\system32\rtkapo64.dll in vista system .
+ status - onfirstuiafter
+ installer - onend
